@@ -15,6 +15,9 @@ module.exports = {
       darkYellow: 'rgba(245, 230, 83)',
       fadeWhite: 'rgb(242,243,244)'
     },
+    height: {
+      '128': '40rem',
+    },
     maxHeight: {
       '128': '40rem',
     },
@@ -22,6 +25,7 @@ module.exports = {
       '18': '75px',
     },
     margin: {
+      '138': '50rem',
       '142': '52rem',
       '128': '40rem',
       '96': '27rem',

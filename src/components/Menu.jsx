@@ -37,7 +37,7 @@ const Menu = () => {
           <button
             onClick={handleClick2}
             type="button"
-            className="absolute right-18 w-48 font-nunito h-14 bg-yellow hover:bg-darkYellow -mt-142 duration-200 hover:rounded-md ease-in rotate-12 px-2 py-2.5 text-center"
+            className="absolute right-18 w-48 font-nunito h-14 bg-yellow hover:bg-darkYellow -mt-138 duration-200 hover:rounded-md ease-in rotate-12 px-2 py-2.5 text-center"
           >
             Show NonVeg Pizza &#8594;
           </button>

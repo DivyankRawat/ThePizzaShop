@@ -11,7 +11,7 @@ const Veg = () => {
       <div className="flex justify-center flex-row mb-18 flex-wrap">
         {response?.data?.map((vegPizza) => {
           return (
-            <div>
+            <div key={vegPizza.id}>
               {!vegPizza.isVeg ? null : (
                 <div className="font-mont flex flex-col justify-center items-center text-center px-2 py-4 w-80 mb-2 border-2 bg-fadeWhite mx-2">
                   <img
