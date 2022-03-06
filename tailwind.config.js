@@ -16,11 +16,14 @@ module.exports = {
       fadeWhite: 'rgb(242,243,244)',
       lightGreen: 'rgb(144,238,144)',
       lightRed: 'rgb(255,0,0, 0.6)',
-      white: 'rgb(255,255,255)'
+      white: 'rgb(255,255,255)',
+      darkGery: 'rgb(38,38,38)'
     },
     height: {
+      '6': '2rem',
       '12': '4rem',
       '48': '24rem',
+      '96': '30rem',
       '128': '40rem',
     },
     maxHeight: {
