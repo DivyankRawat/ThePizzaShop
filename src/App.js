@@ -8,8 +8,8 @@ const App = () => {
         <Navbar />
         <Main />
         <Menu />
-        {/* <OrderingArea />
-        <Footer /> */}
+        <OrderingArea />
+        {/* <Footer /> */}
       </div>
     </>
   );
