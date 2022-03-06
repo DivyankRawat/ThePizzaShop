@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Veg, NonVeg } from "../components";
+import Veg from "./Veg";
+import NonVeg from "./NonVeg";
 import bgMenu from "../assets/menu-bg.jpg";
 
 const Menu = () => {
@@ -45,23 +46,6 @@ const Menu = () => {
             <Veg />
           </>
         ) : null}
-      </div>
-      <div>
-        <img
-          className="h-48 absolute max-w-screen w-full object-cover"
-          src={bgMenu}
-          alt="menu"
-        />
-        <div className="text-white absolute top-0 left-0 flex flex-col justify-center pl-10 -pt-2 w-full max-h-48 h-48 bg-blackOverlay">
-          <p className="font-noto text-8xl -pt-2">Best Atmosphere</p>
-          <p className="text-xl font-mont pt-3">
-            The Pizza Shop is the place of the best pizza and high-quality
-            service.
-            <br />
-            Come dine with your Family and Friends and Enjoy the best time of
-            your life.
-          </p>
-        </div>
       </div>
     </>
   );

@@ -1,18 +1,15 @@
-import React from 'react';
-import { Navbar, Main, Menu, OrderingArea, Footer } from './components';
+import React from "react";
+import Home from "./components/Home";
+import Cart from "./components/Cart";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      <div>
-        <Navbar />
-        <Main />
-        <Menu />
-        <OrderingArea />
-        <Footer />
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/cart" element={<Cart />} />
+    </Routes>
   );
-}
+};
 
 export default App;
