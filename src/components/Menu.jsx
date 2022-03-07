@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Veg from "./Veg";
 import NonVeg from "./NonVeg";
-import bgMenu from "../assets/menu-bg.jpg";
 
 const Menu = () => {
   const [veg, setVeg] = useState(false);
@@ -39,7 +38,7 @@ const Menu = () => {
             <button
               onClick={handleClick2}
               type="button"
-              className="absolute right-18 w-48 font-nunito h-14 bg-yellow hover:bg-darkYellow -mt-138 duration-200 hover:rounded-md ease-in rotate-12 px-2 py-2.5 text-center"
+              className="absolute right-18 w-48 font-nunito h-14 bg-yellow hover:bg-darkYellow -mt-158 duration-200 hover:rounded-md ease-in rotate-12 px-2 py-2.5 text-center"
             >
               Show NonVeg Pizza &#8594;
             </button>
