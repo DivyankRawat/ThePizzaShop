@@ -12,7 +12,6 @@ const Navbar = () => {
           <li className="px-5 pt-1 cursor-pointer">
             <Link to="/">Home</Link>
           </li>
-          <li className="px-5 pt-1 cursor-pointer">Menu</li>
           <li className="px-5 pt-1 cursor-pointer">
             <Link to="/cart">Cart</Link>
           </li>
