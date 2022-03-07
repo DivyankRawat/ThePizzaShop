@@ -11,7 +11,7 @@ export const store = configureStore({
     // middleware provides us advantages of caching, poling, invaluation etc
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware().concat(pizzaApi.middleware),
-})
+});
 
 // it enables refetch for certain events
 setupListeners(store.dispatch)

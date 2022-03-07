@@ -17,13 +17,16 @@ module.exports = {
       lightGreen: 'rgb(144,238,144)',
       lightRed: 'rgb(255,0,0, 0.6)',
       white: 'rgb(255,255,255)',
-      darkGery: 'rgb(38,38,38)'
+      darkGery: 'rgb(38,38,38)',
+      blue: 'rgb(0, 0, 255)',
+      darkBlue: 'rgb(0, 71, 171)',
+
     },
     height: {
       '6': '2rem',
       '12': '4rem',
       '16': '8rem',
-      '20': '10rem',
+      '20': '11rem',
       '48': '24rem',
       '60': '28rem',
       '96': '30rem',
